@@ -9,10 +9,10 @@ class TodoSave extends StatefulWidget {
   TodoSave({Key?key, required this.todo}) : super(key: key);
 
   @override
-  _TodoSaveState createState() => _TodoSaveState();
+  TodoSaveState createState() => TodoSaveState();
 }
 
-class _TodoSaveState extends State<TodoSave> {
+class TodoSaveState extends State<TodoSave> {
   TextEditingController titleController = TextEditingController();
   TextEditingController descriptionController = TextEditingController();
 
@@ -38,25 +38,24 @@ class _TodoSaveState extends State<TodoSave> {
           padding: const EdgeInsets.all(20),
           child: Column(
             children: [
-              Container(
-                  child:TextField(
+              TextField(
                 onChanged: (data) {
-                  widget.todo.title = data;
+              widget.todo.title = data;
                 },
-                    cursorColor: Colors.black,
+                cursorColor: Colors.black,
                 style: GoogleFonts.lato(color: Colors.black,fontSize: 20),
                 decoration: const InputDecoration(
-                  border: InputBorder.none,
-                  hintText: "Enter the title",
-                  hintStyle: TextStyle(fontWeight: FontWeight.bold)
+              border: InputBorder.none,
+              hintText: "Enter the title",
+              hintStyle: TextStyle(fontWeight: FontWeight.bold)
                 ),
                 controller: titleController,
-              )),
+              ),
               const SizedBox(
                 height: 25,
               ),
               TextField(
-                maxLines: 10,
+                maxLines: 14,
                 onChanged: (data) {
               widget.todo.description = data;
                 },
