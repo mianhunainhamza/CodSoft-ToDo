@@ -1,16 +1,19 @@
-# todo_list
+Here is the ToDo app and features that are present in the application
+You can save/edit and delete the notes in the application
 
-ToDo App for Internship
+<br>
+<br>
 
-## Getting Started
+![1](https://github.com/mianhunainhamza/CodSoft/assets/105043202/25f766ce-0f14-4f86-ab7c-902c4dbfc921)
+<br>
+<br>
 
-This project is a starting point for a Flutter application.
+![2](https://github.com/mianhunainhamza/CodSoft/assets/105043202/b92acf9c-9b58-4169-a7be-9cd0653f7b01)
+<br>
+<br>
 
-A few resources to get you started if this is your first Flutter project:
+![3](https://github.com/mianhunainhamza/CodSoft/assets/105043202/7c85a131-d486-4de7-95bf-2199222ddae1)
+<br>
+<br>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![4](https://github.com/mianhunainhamza/CodSoft/assets/105043202/e0405050-af26-4d5d-a42b-72f1478b5c4b)
